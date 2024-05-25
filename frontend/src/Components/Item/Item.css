@@ -1,0 +1,129 @@
+.item{
+    background: white;
+    border-radius:10px ;
+    width: 430px;
+    height: 740px;
+    padding: 5px;
+    box-shadow: 3px 3px  rgba(0, 0, 0, 0.151);
+    img{
+        width: 400px;
+        height: 400px;
+        margin-left: 20px;
+
+    }
+    p{
+        margin:6px 0px;
+        font-size: 20px;
+    }
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+    a{
+        color:rgba(255, 0, 0, 0.753);
+    }
+}
+.item-price-new{
+    color:#374151;
+    font-size: 29px;
+    font-weight: 600;
+}
+.item-price-old{
+    color:#8c8c8c;
+    font-size: 29px;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+
+}
+@media(max-width:1280px){
+    .item{
+        width: 210px;
+        height: 510px;
+        font-size: 14px;
+        p{
+            font-size: 16px;
+        }
+      
+    }
+    .item img{
+        width: 190px;
+        height: 190px;
+    }
+    .item-price-old{
+        font-size: 14px;
+
+    }
+    .item-price-new{
+        font-size: 14px;
+
+    }
+}
+@media(max-width:1024px){
+    .item{
+        width: 180px;
+        height: 470px;
+        font-size: 13px;
+        p{
+            font-size: 15px;
+        }
+
+    }
+    .item img{
+        width: 160px;
+        height: 160px;
+        margin-left: 10px;
+
+    }
+
+}
+@media(max-width:800px){
+    .item{
+        width: 120px;
+        height: 350px;
+        font-size: 12px;
+
+        p{
+            font-size: 12px;
+        }
+    }
+    .item img{
+        width: 100px;
+        height: 100px;
+
+    }
+    .item-price-new{
+        font-size: 11px;
+    }
+    .item-price-old{
+        font-size: 11px;
+    }
+
+}
+@media(max-width:500px){
+    .item{
+        width: 100px;
+        height: 320px;
+        font-size: 10px;
+p{
+    font-size: 11px;
+}
+    }
+    .item img{
+        width: 90px;
+        height: 90px;
+        
+    }
+    .item-price-new{
+        font-size: 6px;
+    }
+    .item-price-old{
+        font-size: 6px;
+       
+    }
+
+}
